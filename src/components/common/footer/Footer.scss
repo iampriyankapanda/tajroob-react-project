@@ -1,0 +1,24 @@
+@import 'src/assets/scss/common/base.scss';
+@import 'src/assets/scss/common/_mixins.scss';
+@import 'src/assets/scss/common/_variables.scss';
+
+.footer-wrapper {
+	background-color: #f0f5fb;
+	padding-top: 54px;
+}
+.footer-wrapper__header {
+	border-bottom: 1px solid #dadce0;
+	padding-bottom: 24px;
+}
+.footer-wrapper__header h6 {
+	font-weight: $normal-font-weight;
+	color: #423f3f;
+	@include genearteRemFontSize(16);
+	margin-right: 52px;
+}
+.footer-wrapper__header-list {
+	gap: 24px;
+}
+.footer-header-icons {
+	cursor: pointer;
+}

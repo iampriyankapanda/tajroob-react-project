@@ -1,0 +1,44 @@
+@import 'src/assets/scss/common/base.scss';
+@import 'src/assets/scss/common/_mixins.scss';
+
+.header-wrapper {
+	width: 100%;
+	border-bottom: 1px solid #dadce0;
+	padding: 8px 24px;
+	position: relative;
+}
+.header-wrapper__logo {
+	.logo-icon {
+		max-width: 133px;
+		height: 48px;
+	}
+}
+.header-wrapper__navigation {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	.header-wrapper__navigation-list-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
+	// .header-wrapper__navigation-list {
+	// }
+	.header-wrapper__navigation-list-link {
+		color: #423f3f;
+		font-weight: $normal-font-weight;
+		@include genearteRemFontSize(16);
+		// &:hover {
+		// 	&:after {
+		// 		position: absolute;
+		// 		content: '';
+		// 		height: 2px;
+		// 		width: 100%;
+		// 		bottom: -25px;
+		// 		left: 0;
+		// 		background-color: #4285f4;
+		// 	}
+		// }
+	}
+}

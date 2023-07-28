@@ -1,7 +1,8 @@
 import React from "react";
+import Layout from "../../components/layout/Layout";
 
 export default function Home() {
   return (
-    <h1>abc</h1>
+    <Layout></Layout>
   );
 }
