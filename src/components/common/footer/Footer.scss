@@ -22,3 +22,31 @@
 .footer-header-icons {
 	cursor: pointer;
 }
+.footer-logo {
+	min-width: 132px;
+	height: 48px;
+}
+.footer-wrapper__main {
+	padding: 24px 0;
+	border-bottom: 1px solid #dadce0;
+	align-items: flex-start;
+}
+.footer-wrapper__main p {
+	max-width: 312px;
+	width: 100%;
+	color: #423f3f;
+	@include genearteRemFontSize(16);
+	font-weight: $light-font-weight;
+	margin: 24px 0 32px;
+	line-height: 1.2;
+}
+.footer-wrapper__main-footer-links {
+	gap: 30px;
+	margin-top: 24px;
+	max-width: calc(100% - 400px);
+	width: 100%;
+	align-items: flex-start;
+}
+.footer-wrapper__footer {
+	padding: 24px 0;
+}

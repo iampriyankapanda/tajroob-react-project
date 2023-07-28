@@ -1,0 +1,20 @@
+@import 'src/assets/scss/common/base.scss';
+@import 'src/assets/scss/common/_mixins.scss';
+@import 'src/assets/scss/common/_variables.scss';
+
+.page-header-wrapper {
+	margin: 54px 0 24px;
+}
+.page-header-wrapper h2 {
+	color: #202124;
+	@include genearteRemFontSize(36);
+	font-weight: $medium-font-weight;
+	line-height: 1.2;
+}
+.page-header-wrapper h3 {
+	color: #5f6368;
+	@include genearteRemFontSize(22);
+	font-weight: $normal-font-weight;
+	line-height: 1.2;
+	margin: 8px 0;
+}

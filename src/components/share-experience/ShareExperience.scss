@@ -1,0 +1,39 @@
+@import 'src/assets/scss/common/base.scss';
+@import 'src/assets/scss/common/_mixins.scss';
+@import 'src/assets/scss/common/_variables.scss';
+
+.share-experience-wrapper__container {
+	border: 1px solid transparent;
+	border-radius: $base-border-radius * 2;
+}
+.red-border {
+	border: 1px solid #ee3869;
+}
+.green-border {
+	border: 1px solid #05a357;
+}
+.share-experience-wrapper__main {
+	max-width: 1000px;
+	width: 100%;
+	margin: 2px auto 0;
+	gap: 52px;
+	align-items: flex-start;
+	padding: 54px;
+}
+.share-experience-wrapper__main h2 {
+	line-height: 1.2;
+	@include genearteRemFontSize(36);
+	color: #202124;
+	font-weight: $medium-font-weight;
+}
+.share-experience-wrapper__main h4 {
+	line-height: 1.2;
+	@include genearteRemFontSize(22);
+	color: #423f3f;
+	margin: 8px 0 24px;
+	font-weight: $normal-font-weight;
+}
+.share-image {
+	width: 401px;
+	height: 301px;
+}

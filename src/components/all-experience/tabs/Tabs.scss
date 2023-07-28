@@ -1,0 +1,52 @@
+@import 'src/assets/scss/common/base.scss';
+@import 'src/assets/scss/common/_mixins.scss';
+@import 'src/assets/scss/common/_variables.scss';
+
+.tabs-wrapper {
+	margin-top: 10px;
+}
+.tabs-wrapper__list {
+	border-bottom: 1px solid #dadce0;
+	color: #5f6368;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+	@include genearteRemFontSize(16);
+	font-weight: $medium-font-weight;
+}
+.tabs-wrapper-element__list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 24px 16px;
+}
+.tabs-images {
+	width: 207px;
+	height: 313px;
+	border-radius: 8px;
+}
+.tabs-card-details-header {
+	position: absolute;
+	color: $white-color;
+	padding: 8px;
+	top: 0;
+}
+.tabs-card-details-header h6 {
+	font-weight: $normal-font-weight;
+	@include genearteRemFontSize(12);
+}
+.tabs-card-details-header h5 {
+	font-weight: $medium-font-weight;
+	@include genearteRemFontSize(22);
+}
+.tabs-card-details-footer {
+	position: absolute;
+	bottom: 16px;
+	left: 12px;
+	color: $white-color;
+}
+.tabs-card-details-footer h6 {
+	font-weight: $normal-font-weight;
+	@include genearteRemFontSize(12);
+}
+.tabs-wrapper-element {
+	position: relative;
+}
